@@ -1,0 +1,35 @@
+body{
+    color: white;
+}
+/* HEADER */
+header{
+    background-color:#2E3A46;
+}
+.ms_header-col{
+  height: 80px;
+}
+.ms_header-col img{
+  height: 50px;
+}
+
+/* MAIN */
+main{
+    background-color: #1E2D3B;
+}
+.ms_disco-box{
+    min-height: 300px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #2E3A46;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.ms_disco-box h3{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.ms_disco-box span{
+    color: grey;
+}
